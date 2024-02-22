@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Latihan 3</title>
+  </head>
+
+  <body bgcolor="#95EDBE">
+    <table
+      align="center"
+      border="0"
+      cellpadding="20"
+      width="100%"
+      cellspacing="0"
+    >
+      <tr>
+        <td>
+          <fieldset>
+            <legend>Link</legend>
+
+            <ul>
+              <li><a href="latihan1.html">Home</a></li>
+              <li><a href="latihan2.html">Menu</a></li>
+              <li><a href="latihan3.html">Form</a></li>
+            </ul>
+          </fieldset>
+        </td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <form action="" method="" enctype="">
+      <table border="1" cellpadding="15" width="70%" align="center">
+        <thead bgcolor="grey">
+          <tr>
+            <th colspan="2">Latihan Form</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td width="40%">
+              <label for="nama">Masukkan Nama :</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                value=""
+                size="35"
+                placeholder="Masukkan Nama"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="nama">Masukkan Email :</label>
+            </td>
+            <td>
+              <input
+                type="email"
+                value=""
+                size="35"
+                placeholder="Masukkan alamat email"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="nama">Masukkan Password :</label>
+            </td>
+            <td>
+              <input
+                type="password"
+                value=""
+                size="35"
+                placeholder="Masukkan password"
+                required
+                id="passwordInput"
+              />
+              &nbsp;
+              <p id="togglePassword">lihat</p>
+            </td>
+            <!-- digunakan untuk mengimputkan yang sifatnya rahasia -->
+            <input type="hidden" id="" name="" />
+          </tr>
+          <tr>
+            <td>
+              <label for="">Gender :</label>
+            </td>
+            <td>
+              <input type="radio" name="Gender" id="" value="L" />
+              Laki-laki &nbsp;
+              <input type="radio" name="Gender" value="P" id="" /> Perempuan
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="">Hobi :</label>
+            </td>
+            <td>
+              <input type="checkbox" name="hobi" id="" value="ngoding" />
+              Ngoding &nbsp;
+              <input type="checkbox" name="hobi" id="" value="lari" /> Lari
+              &nbsp;
+              <input type="checkbox" name="hobi" id="" value="makan" /> Makan
+              &nbsp;
+              <input type="checkbox" name="hobi" id="" value="futsal" /> Futsal
+              &nbsp;
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="">Ulang Tahun :</label>
+            </td>
+            <td>
+              <input
+                type="datetime-local"
+                id="birthdaytime"
+                name="birthdaytime"
+              />
+              &nbsp; &nbsp;
+              <input type="time" name="waktu" id="" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="">Pendidikan Sekarang :</label>
+            </td>
+            <td>
+              <select name="pendidikan" id="">
+                <option value="" selected disabled>
+                  -- Pilih Pendidikan Sekarang --
+                </option>
+                <option value="sd">SD</option>
+                <option value="SMP">SMP</option>
+                <option value="SMA">SMA</option>
+                <option value="kuliah">Pendidikan Tinggi/kuliah</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Alamat :</label></td>
+            <td>
+              <textarea name="alamat" id="" cols="60" rows="4"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="">Attribute Disabled :</label>
+            </td>
+            <td>
+              <input type="text" name="" id="" readonly disabled />
+            </td>
+          </tr>
+        </tbody>
+
+        <tfoot bgcolor="grey">
+          <tr>
+            <th colspan="2">
+              <input type="submit" value="Kirim" /> &nbsp; &nbsp;
+              <input type="reset" value="Batal" />
+            </th>
+          </tr>
+        </tfoot>
+      </table>
+    </form>
+
+    <!-- coba JS -->
+    <script type="module" src="./js/password.js"></script>
+  </body>
+</html>
