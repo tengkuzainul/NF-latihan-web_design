@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -11,8 +12,56 @@ body {
 .header {
   background-image: url("../img/header.jpg");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center fixed;
   padding: 20px;
   text-align: center;
+  color: #f9f9f9;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  overflow: hidden;
+  background-image: linear-gradient(to right, blue, orange, red, blue);
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  gap: 100px;
+  /* position: fixed;
+  top: 0;
+  width: 100%; */
+}
+
+.navbar a {
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 16px;
+  color: #f9f9f9;
+}
+
+.navbar a:hover {
+  color: wheat;
+}
+
+.column {
+  /* float: left; */
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  gap: 5%;
+}
+
+/* .column .side {
+    pa
+}
+
+.column .middle {
+} */
+
+.footer {
+  background-image: linear-gradient(to right bottom, navy, red, blue);
+  padding: 10px;
+  text-align: center;
+  font-weight: 800;
   color: #f9f9f9;
 }
