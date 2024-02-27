@@ -9,4 +9,5 @@
   <li>Pengenalan HTML ✔</li>
   <li>Multimedia, Hyperlink & Tables ✔</li>
   <li>Form & Frame ✔</li>
+  <li>CSS dan CSS Layouting ✔</li>
 </ul>
