@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url("../img/header.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 20px;
+  text-align: center;
+  color: #f9f9f9;
+}

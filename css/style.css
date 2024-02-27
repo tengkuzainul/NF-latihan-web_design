@@ -1,0 +1,84 @@
+p {
+  color: #f8f8ed;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-size: 12pt;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background-image: url(https://www.mining.com/wp-content/uploads/2023/06/mining-moon-nasa.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+fieldset,
+legend,
+font {
+  border-width: 3px;
+  border-color: #f8f8ed;
+  border-radius: 35px;
+  color: #f6f6ed;
+  font-weight: bold;
+}
+
+/* a {
+  color: #f90;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f8f8ed;
+  border-bottom: 2px solid #f90;
+} */
+
+table {
+  border: 10px;
+  margin: auto;
+}
+
+td {
+  padding: 5px;
+  border: 1px solid green;
+}
+
+th,
+td {
+  color: #f8d8f8;
+}
+
+tr:hover {
+  font-weight: 100;
+  font-family: "Poppins ", sans-serif;
+  background-color: #ff99;
+}
+
+#paragraph {
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  color: #f90;
+  padding: 10px;
+}
+
+.image {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.li,
+.item:link,
+.item:visited,
+.item:active {
+  text-decoration: none;
+  list-style: none;
+  background-color: white;
+  display: block;
+  float: left;
+  padding: 2px 3px;
+}
