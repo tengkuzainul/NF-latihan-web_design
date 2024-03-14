@@ -1,0 +1,23 @@
+<table style="padding: 5; text-align: center; width: 100%">
+  <thead>
+    <tr>
+      <th style="padding: 5px 5px 10px">No</th>
+      <th style="padding: 5px 5px 10px">Nama</th>
+      <th style="padding: 5px 5px 10px">Alamat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <script>
+      let no, warna;
+
+      for (let no = 1; no <= 20; no++) {
+        warna = no % 2 == 0 ? "white" : "red";
+        document.write(` <tr bgcolor="${warna}">
+            <td>${no}</td>
+            <td>Mahasiswa ${no}</td>
+            <td>Kecamatan Bogor ${no}</td>
+            </tr>`);
+      }
+    </script>
+  </tbody>
+</table>

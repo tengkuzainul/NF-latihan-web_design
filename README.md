@@ -18,4 +18,5 @@
   <li>Menampilkan Output ✔</li>
   <li>Membuat proses Aritmatika ✔</li>
   <li>Membuat Proses Kondisi (If.. Else..) ✔</li>
+  <li>Looping & Array Loop✔</li>
 </ul>
