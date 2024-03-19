@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/latiham13.css" />
+    <title>KALKULATOR</title>
+  </head>
+  <body>
+    <form id="form">
+      <div class="form-group">
+        <label for="angkaPertama">Angka Pertama :</label>
+        <input
+          type="text"
+          name="angkaPertama"
+          id="angkaPertama"
+          placeholder="Masukkan Angka Pertama"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="angkaKedua">Angka Kedua : </label>
+        <input
+          type="text"
+          name="angkaKedua"
+          id="angkaKedua"
+          placeholder="Masukkan Angka Kedua"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="hasil">Hasil : </label>
+        <input type="text" name="hasil" id="hasil" readonly disabled />
+      </div>
+      <button type="button" id="tambahBtn">+</button>
+      <button type="button" id="kurangBtn">-</button>
+      <button type="button" id="kaliBtn">x</button>
+      <button type="button" id="bagiBtn">/</button>
+      <button type="button" id="pangkatBtn">^</button>
+      <button type="reset" id="reset">Cencal</button>
+    </form>
+
+    <script src="js/calculator.js"></script>
+  </body>
+</html>
