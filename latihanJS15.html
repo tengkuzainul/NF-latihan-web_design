@@ -6,6 +6,20 @@
     <title>Latihan 15 JS OOP</title>
   </head>
   <body>
+    <h1
+      style="
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+        padding: 5px;
+        background-image: linear-gradient(to right, blue, yellow);
+        background-clip: text;
+        color: transparent;
+      "
+    >
+      BELAJAR OOP
+    </h1>
     <script>
       class BanK {
         /* constructor adalah method untuk mendeklarasikan variable yang nantinya akan diambil oleh object */
@@ -20,23 +34,30 @@
         }
 
         menarik(uang) {
-          this.saldo = uang;
+          this.saldo -= uang;
         }
 
         mencetak() {
           document.write("No. Rekening : ", this.no);
           document.write("<br/> Nama Nasabah : ", this.nasabah);
           document.write("<br/> Saldo Akhir : ", this.saldo);
-          document.write("<br/> -----------------");
+          document.write("<br/> ----------------- <br/>");
         }
       }
 
       /* Ini Adalah Objek */
-      let n1 = new BanK("001213", "Zainul", 1500000);
+      let n1 = new BanK("210402071", "Zainul", 250000);
+      let n2 = new BanK("210402128", "Iqbal", 500000);
 
-      //   n1.mencetak();
+      n1.mencetak();
       n1.menabung(200000);
       n1.mencetak();
+
+      n2.mencetak();
+      n2.menarik(480000);
+      n2.mencetak();
+      n2.menabung(6600000);
+      n2.mencetak();
     </script>
   </body>
 </html>
