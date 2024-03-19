@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan 15 JS OOP</title>
+  </head>
+  <body>
+    <script>
+      class BanK {
+        /* constructor adalah method untuk mendeklarasikan variable yang nantinya akan diambil oleh object */
+        constructor(norek, nasabah, saldo) {
+          this.no = norek;
+          this.nasabah = nasabah;
+          this.saldo = saldo;
+        }
+
+        menabung(uang) {
+          this.saldo += uang;
+        }
+
+        menarik(uang) {
+          this.saldo = uang;
+        }
+
+        mencetak() {
+          document.write("No. Rekening : ", this.no);
+          document.write("<br/> Nama Nasabah : ", this.nasabah);
+          document.write("<br/> Saldo Akhir : ", this.saldo);
+          document.write("<br/> -----------------");
+        }
+      }
+
+      /* Ini Adalah Objek */
+      let n1 = new BanK("001213", "Zainul", 1500000);
+
+      //   n1.mencetak();
+      n1.menabung(200000);
+      n1.mencetak();
+    </script>
+  </body>
+</html>
