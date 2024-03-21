@@ -4,6 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Latihan JQuery 2</title>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("input").click(function () {
+          /* Deklarasi menggunakan tag */ alert("Selamat Siang Sobat");
+        });
+        $(".test").css({
+          color: "orange",
+          "text-align": "center",
+          "font-family": "Roboto, sans serif",
+          "font-size": "50px",
+        });
+        $("#test2").css({
+          "background-image": "linear-gradient(to right, blue, red, navy)",
+          "background-clip": "text",
+          "margin-top": "15px",
+          "-webkit-background-clip": "text",
+          color: "transparent",
+        });
+      });
+    </script>
   </head>
-  <body></body>
+  <body>
+    <h1 class="test">ASSALAMUALAIKUM</h1>
+    <h1 id="test2">ASSALAMUALAIKUM</h1>
+
+    <input type="submit" value="salam" />
+  </body>
 </html>

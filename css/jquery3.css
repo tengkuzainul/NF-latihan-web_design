@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  margin: auto;
+  background-color: #f9f9f9;
+}
+
+#div1 {
+  display: inline-block;
+  margin: auto;
+  width: 80%;
+  color: #f9f9f9;
+  height: 300px;
+  cursor: pointer;
+}
